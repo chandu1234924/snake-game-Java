@@ -1,0 +1,46 @@
+DJANGO..............:
+>IT IS A FRAMEWORK TO BUILD WEBSITES AND APPS
+>FRAMEWORKS COME WITH LOT OF BUILT IN FUNCTIONS
+>BETTER WEB APPS,MORE QUICKLY,LESS CODE
+
+
+User/Client --> www.flipkart.com --> request --> server --> HTTP response --> user
+
+ SSR - server side rendering 
+
+Types of request (method)
+GET
+POST
+
+CSR - client side rendering 
+
+Types of request (methods):
+GET
+POST
+PUT
+PATCH
+DELETE
+
+to install Django:
+>pip install django==5.2
+
+to run server
+python manage.py runserver
+
+apps:
+amazon.in:
+    products
+    orders
+    users
+    payments
+
+    
+    blog 
+    exams
+
+User --> request --> middleware 1 --> middleware 2 --> server 
+models: classes that represents database tables
+templates :html files 
+views: functions or classes that handles (takes request) request and returns response 
+
+ORM --> Object-Relational Mapping is a programming technique that acts as a bridge between object-oriented code and relational databases. It allows developers to interact with data using programming language objects (e.g., Python, Java) rather than writing raw SQL queries, enhancing productivity, security, and portability while managing database schemas
